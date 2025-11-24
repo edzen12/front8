@@ -1,0 +1,70 @@
+a{
+    text-decoration: none;
+}
+.section{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.soderjanie{
+    border: 1px solid black; 
+    width: 400px; 
+    background-color:ghostwhite; 
+}
+
+.soderjanie h2{
+    text-align: center;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 3px 14px 4px black;
+    padding: 15px;
+}
+.menu li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+.menu li a{
+    font-size: 25px;
+    color: #000;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    color: red;
+}
+.soderjanie li{
+    font-size: 25px;
+}
+.soderjanie h2{
+    font-size: 28px;
+}
+.textBlock p{
+    font-size: 25px;
+}
+.bacg{
+    text-align: center;
+}
+.bacg img{
+    height: 870px;
+}
+.tours{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.tours a{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.tours h2{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.tours img{
+    width: 400px;
+}
+.tour{
+    border: 1px solid black;
+    width: 400px;
+    margin: 10px;
+}
