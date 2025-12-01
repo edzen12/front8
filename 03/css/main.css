@@ -81,3 +81,33 @@ li{
     text-transform: uppercase;
 }
 /* menuSecond end */
+/* banner */
+.banner{
+    text-align: center;
+}
+/* banner */
+
+/* card */
+.cardBlock{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.cardGreat{
+    width: 220px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid black;
+}
+.cardBottom ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    align-items: center;
+    display: flex;  
+} 
+.cardBottom li{
+    margin-left: 16px;
+    margin-right: 16px;
+    font-weight: 800;
+}
