@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(229, 237, 241);
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/*  menuStart start*/
+.menuStart {
+    margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnMenuBig{
+    margin-left: 40px;
+}
+.menuStart ul{
+    display: flex;
+    align-items: center;
+}
+.menuStart li{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+.graymenu{
+    color: gray;
+    font-weight: 900;
+}
+.btnMenu{
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 15px;
+}
+.support{
+    background-color: rgb(32, 144, 235); 
+}
+.support:hover{
+    background-color: rgb(21, 240, 189); 
+    font-size: 16px;
+    transition: all 0.6s ease-out;
+}
+.mybuy{
+    background-color: red; 
+}
+.mybuy:hover{
+    background-color: rgb(218, 255, 83); 
+    font-size: 16px;
+    transition: all 0.6s ease-out;
+}
+/*  menuStart end */
+
+/* menuSecond start */
+.menuSecond {
+    background-color: #3a3a3a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menuSecond a{
+    color: #fff;
+}
+.menuSecond ul{
+   margin-left: 80px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menuSecond ul{
+    display: flex;
+    align-items: center;
+}
+.menuSecond li{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+}
+/* menuSecond end */
