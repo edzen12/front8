@@ -8,12 +8,45 @@
     display: flex;
 }
 .percent70{
-    width: 70%;
-    background: rgb(69, 225, 181);
+    width: 70%; 
+}
+.textCatalogBlock h3{
+    font-size: 15px;
+}
+.textCatalogBlock p{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.textCatalogBlock span{
+    color: green;
+}
+.textCatalogBlock{margin-left: 15px;}
+.priceCatalogBlock{margin-left: 15px;}
+.priceCatalogBlock{
+    font-size: 13px;
 }
 .percent30{
-    width: 30%;
-    background: blueviolet;
+    width: 30%;     
+}
+.smallpercent30{
+    font-size: 13px;
+}
+.smallpercent30 input{
+    width: 120px;
+}
+.checkboxGenre{
+    width: 100%;
+    display: flex;
+}
+.block1Checkbox{
+    width: 80%;
+}
+.block2Checkbox{
+    width: 20%;
+}
+legend{
+    margin-top: 30px;
 }
 /* menu */
 .menupercent70 ul {
@@ -31,6 +64,20 @@
 .cardCatalogBlock{
     display: flex;
 }
+.imgCatalogBlock{
+    position: relative;
+    width: 200px;
+}
+.overlayTextCatalog{
+    position: absolute;
+    top: -3%;
+    left: -3%;
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
 .cardCatalogBlock img{
-    width: 300px;
+    width: 100%;
 }
