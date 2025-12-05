@@ -1,0 +1,10 @@
+.blockGarantii{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.garantii{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
