@@ -1,0 +1,22 @@
+.sectionBackground{
+    background:linear-gradient(rgba(83, 83, 83, 0.7), rgba(0, 0, 0, 0.8)), url('https://imag.malavida.com/mvimgbig/download-fs/gta-5-18022-10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.sectionBackground h2{
+    margin: 0;
+}
+.block100Section{
+    width: 100%;
+    display: flex;
+}
+.block100Section img{
+    width: 300px;
+}
+.blueblock50 {
+    width: 50%;     
+}
+.redblock50 {
+    width: 50%; 
+}

@@ -7,14 +7,33 @@
     width: 100%;
     display: flex;
 }
+.graymenu{
+    font-weight: 300;
+}
+.menuSecond li{
+    font-weight: 300;
+}
 .percent70{
     width: 70%; 
 }
 .textCatalogBlock h3{
     font-size: 15px;
+    margin: 0;
+}
+.he{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.he input{
+    width: 100%;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+text-transform: uppercase;
 }
 .textCatalogBlock p{
     font-size: 12px;
+    margin: 5px;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -24,7 +43,25 @@
 .textCatalogBlock{margin-left: 15px;}
 .priceCatalogBlock{margin-left: 15px;}
 .priceCatalogBlock{
-    font-size: 13px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.priceCatalogBlock a{
+    background-color: rgb(227, 227, 227);
+    color: rgb(49, 49, 49);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid gray;
+}
+.priceCatalogBlock p{padding-bottom: 10px;}
+.priceCatalogBlock a:hover{
+    background-color: rgb(99, 206, 63);
+    color: white; 
+}
+.priceCatalogBlock img{
+    width: 20px !important;
 }
 .percent30{
     width: 30%;     
@@ -43,7 +80,18 @@
     width: 80%;
 }
 .block2Checkbox{
-    width: 20%;
+    font-size: 12px;
+    border-radius: 10px;
+    font-weight: 200;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    background: black;
+    color: white;
+}
+.checkboxGenre div{
+    margin-top: 5px; 
 }
 legend{
     margin-top: 30px;
@@ -80,4 +128,42 @@ legend{
 }
 .cardCatalogBlock img{
     width: 100%;
+}
+.cardCatalogBlock{
+    width: 100%;
+}
+.imgCatalogBlock{
+    width: 25%;
+}
+.textCatalogBlock{
+    width: 50%;
+}
+.priceCatalogBlock{
+    width: 25%;
+    text-align: center;
+}
+.skidkaPriceCatalogBlock{
+    background-color: red;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.priceCatalogBlock a{
+    font-weight: 300;
+}
+.textCatalogBlock img{
+    width: 15px;
+}
+.textCatalogBlock li{
+    margin-right: 10px;
+}
+.textCatalogBlock ul{
+    display: flex;
+    padding: 0
+}
+.textCatalogBlock span{
+    font-size: 10px;
+    font-weight: 300;
 }
