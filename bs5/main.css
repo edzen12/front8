@@ -32,3 +32,21 @@ gap: 10px;
 .blockIcons img{
     width: 100px;
 }
+/* recomBlock */
+.recomBlock a{
+    margin-top: 8px;
+    width: 100%;
+}
+.recomBlock p{
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+.imgBlock2 {
+    height: 300px;
+    display: block;
+}
+.imgBlock2 img{
+    height: 100%;
+    object-fit: cover;
+}
