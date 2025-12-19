@@ -25,10 +25,11 @@ gap: 10px;
 }
 .SmallSlider2 img{
     height:250px;
-    width: 240px;
+    width: 100%;
     object-fit: cover;
 }
 /* blockIcons */
+.blockIcons {text-align: center;}
 .blockIcons img{
     width: 100px;
 }
@@ -47,6 +48,27 @@ gap: 10px;
     display: block;
 }
 .imgBlock2 img{
+    height: 100%;
+    object-fit: cover;
+}
+
+/* preimushestva */
+.preimushestva img{
+    width: 60px;
+}
+.modnyiBlog a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.modnyiBlog a:hover{
+    color: red;
+}
+.blockImgmodnyiBlog {
+    height: 200px;
+}
+.modnyiBlog img{
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
