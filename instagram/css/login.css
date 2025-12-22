@@ -1,0 +1,18 @@
+.fontPlayfair{
+    font-family: "Playfair Display", serif;
+}
+.fontGoogle{
+    margin-top: 120px;
+    font-family: "Google Sans", sans-serif;
+}
+ 
+.col7Text{
+    font-size: 37px;
+}
+.imgBG{
+    width: 500px;
+} 
+input{
+    padding: 20px 10px !important;
+    border-radius: 20px !important;
+}
