@@ -44,9 +44,44 @@
   margin:10px;
 }
 .slick-slide img{
-  width:100px;
-  height: 100px;
+  width:80px;
+  height: 80px;
   object-fit: cover;
   border-radius: 50%;
   border: 0px solid #fff;
+}
+.instaModal {
+    text-align: center;
+}
+.instaModal  hr{
+    margin: 5px;
+}
+.instaModal a{
+    text-decoration: none;
+    color: black; 
+    font-size: 14px;
+}
+.instaModal li{
+    list-style-type: none;
+}
+.iconBlockFooterCardImgPost li{
+    list-style-type: none; 
+    margin-right: 10px;
+}
+.iconBlockFooterCardImgPost ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.iconBlockFooterCardImgPost img{
+    width: 25px;
+}
+
+.sidebar{
+    position: fixed; /* Фиксирует элемент относительно окна браузера */
+    top: 0;          /* Прижимает к верхнему краю */
+    left: 0;         /* Прижимает к левому краю */
+    width: 250px;    /* Задайте нужную ширину */
+    height: 100vh;   /* 100% высоты окна браузера */ 
+    overflow-y: auto;
 }
